@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem with expense 1`] = `
+<div>
+  <[object Object]
+    to="/edit/1"
+  >
+    <h3>
+      Gum
+    </h3>
+  </[object Object]>
+  <p>
+    195
+  </p>
+  <p>
+    0
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseListItem with no expense 1`] = `
+<div>
+  <[object Object]
+    to="/edit/undefined"
+  >
+    <h3 />
+  </[object Object]>
+  <p />
+  <p />
+</div>
+`;
