@@ -8,7 +8,9 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react -w"
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react -w",
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "",
   "license": "ISC",
