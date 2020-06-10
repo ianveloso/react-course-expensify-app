@@ -18,18 +18,6 @@ exports[`should render Header correctly 1`] = `
   >
     Create
   </[object Object]>
-  <[object Object]
-    activeClassName="is-active"
-    to="/edit"
-  >
-    Edit
-  </[object Object]>
-  <[object Object]
-    activeClassName="is-active"
-    to="/help"
-  >
-    Help
-  </[object Object]>
   <button
     onClick={[Function]}
   >
