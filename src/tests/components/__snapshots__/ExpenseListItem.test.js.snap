@@ -1,37 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpenseListItem with expense 1`] = `
-<div>
-  <[object Object]
-    to="/edit/1"
-  >
-    <h3>
+<[object Object]
+  className="list-item"
+  to="/edit/1"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    >
       Gum
     </h3>
-  </[object Object]>
-  <p>
+    <span
+      className="list-item__sub-title"
+    >
+      December 31st, 1969
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
+  >
     $1.95
-    -
-    December 31st, 1969
-  </p>
-  <p>
-    0
-  </p>
-</div>
+  </h3>
+</[object Object]>
 `;
 
 exports[`should render ExpenseListItem with no expense 1`] = `
-<div>
-  <[object Object]
-    to="/edit/undefined"
+<[object Object]
+  className="list-item"
+  to="/edit/undefined"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    />
+    <span
+      className="list-item__sub-title"
+    >
+      December 31st, 1969
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
   >
-    <h3 />
-  </[object Object]>
-  <p>
     $0.00
-    -
-    December 31st, 1969
-  </p>
-  <p />
-</div>
+  </h3>
+</[object Object]>
 `;
